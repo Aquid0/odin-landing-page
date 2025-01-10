@@ -82,6 +82,7 @@
     background-color: #6d747d;
     line-height: 200px;
     text-align: center;
+    margin-left: 50px;
     color: #E5E7EB; 
 }
 
@@ -139,8 +140,7 @@
 }
 
 .author {
-    margin-left: auto; 
-    margin-right: 275px;
+    text-align: right;
     font-weight: bold;
     font-size: 18px;
 }
