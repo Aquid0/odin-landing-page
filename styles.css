@@ -2,4 +2,123 @@
     margin: 0; 
     padding: 0;
     box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+/* padding: Top right bottom left */
+
+.header {
+    min-width: 1000px;
+    padding: 15px 0px 75px 0px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.header a {
+    font-size: 16px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.header p {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.summary-container {
+    display: flex; 
+    max-width: 1000px;
+    padding-bottom: 75px;
+}
+
+.summary-container-left {
+    min-height: 200px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.summary-container-left .summary-title {
+    font-size: 45px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.summary-container-left .subtext {
+    font-size: 16px;
+    color: #E5E7EB;
+    margin-top: -15px;
+}
+
+.summary-container-left .sign-up-button {
+    font-size: 16px;
+    color: #F9FAF8;
+    background-color: #3882f6;
+    border: 0;
+    border-radius: 8px;
+    width: 100px;   
+    padding: 5px 10px 5px 10px;
+}
+
+.summary-container img {
+    min-width: 500px;
+    min-height: 200px;
+    background-color: #6d747d;
+    line-height: 200px;
+    text-align: center;
+    color: #E5E7EB; 
+}
+
+.information-container {
+    background-color: #ffffff;
+    min-height: 400px;
+    display: flex;
+    padding: 20px 0px 50px 0px;
+    flex-direction: column;  
+    align-items: center;
+}
+
+.information-title {
+    font-size: 36px; 
+    color: #1f2937;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.card-container {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.card {
+    max-width: 170px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 5px;
+}
+
+.card img {
+    min-width: 170px;
+    min-height: 170px;
+    border-radius: 10px;
+    border: 3px solid #3882f6
 }
