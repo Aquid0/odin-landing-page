@@ -144,3 +144,60 @@
     font-weight: bold;
     font-size: 18px;
 }
+
+.sign-up-container {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    padding: 150px 50px 150px 50px;
+}
+
+.banner {
+    display: flex;
+    border-radius: 10px;
+    background-color: #3882f6;
+    min-width: 950px;
+    padding: 40px 100px 40px 100px;
+}
+
+.banner-title {
+    color: white; 
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.banner-subtext {
+    color: white; 
+    font-size: 14px;
+}
+
+.banner-sign-up-button {
+    font-size: 14px;
+    font-weight: bold;
+    color: #F9FAF8;
+    background-color: transparent;
+    border: 2px solid #f9f9f9;
+    border-radius: 8px;
+    width: 110px;   
+    padding: 5px 15px 5px 15px;
+}
+
+.banner-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+}
+
+.footer {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    background-color: #1f2937;
+    padding: 25px;
+}
+
+.footer p {
+    color: white;
+    font-size: 12px;
+}
